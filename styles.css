@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#6b48d2;
+    color: #d7bebe;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu li a {
+    color: rgb(160, 94, 94);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('c:\Users\DELL\Desktop\Wellness Tip Image.webp');
+    background-size: cover;
+    color: rgb(61, 54, 54);
+    text-align: center;
+    padding: 150px 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#hero button {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Featured Tip Section */
+#featured-tip {
+    background-color: #080101;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#featured-tip h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.tip-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip-content img {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.tip-content p {
+    font-size: 18px;
+    max-width: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: #1dbd68;
+    color: rgb(187, 18, 18);
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+}
